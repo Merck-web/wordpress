@@ -1,0 +1,151 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');*/
+
+@import "variables/var.css";
+@import "header/header.css";
+
+@import "about/about.css";
+
+.container {
+    width: 100%;
+    max-width: 1620px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.modal-backdrop{
+    z-index: 0 !important;
+}
+
+.fbc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cp {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+@keyframes open_modal {
+    from {
+        top: -320px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes close_modal {
+    from {
+        top: 0;
+        opacity: 1
+    }
+    to {
+        top: -320px;
+        opacity: 0
+    }
+}
+
+/*section {*/
+/*    margin-bottom: 100px;*/
+/*}*/
+
+/*@media (max-width: 1920px) {*/
+/*    section {*/
+/*        margin-bottom: 100px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1620px) {*/
+/*    section {*/
+/*        margin-bottom: 90px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1240px) {*/
+/*    section {*/
+/*        margin-bottom: 80px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1024px) {*/
+/*    section {*/
+/*        margin-bottom: 60px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 640px) {*/
+/*    section {*/
+/*        margin-bottom: 40px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 450px) {*/
+/*    section {*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+/*}*/
+.swiper-container{
+    overflow: hidden;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

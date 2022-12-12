@@ -1,0 +1,40 @@
+.section.how {
+
+  .how_top {
+    background-color: var(--bg_color_main);
+    color: var(--text_color_black_900);
+
+    .how_container {
+      max-width: 790px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .title {
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 56px;
+      padding: 100px 0 30px;
+    }
+
+    .description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      padding-bottom: 30px;
+    }
+
+    .range-slider{
+      padding: 30px 0;
+    }
+
+  }
+
+  .how_bot {
+    background-color: var(--bg_color_gray_100);
+    color: var(--text_color_black_900);
+  }
+
+
+
+}
